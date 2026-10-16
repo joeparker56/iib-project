@@ -1,0 +1,12 @@
+# regenerable caches and raw dataset
+**/.cache/
+chris-data/pred_cache/
+chris-data/grid125_R23/
+chris-data/blade_val/
+chris-data/compare/
+chris-data/figures/
+chris-data/surface_plots/
+chris-data/val_plots/
+chris-data/val_plots_global/
+chris-data/val_plots_surface84/
+chris-data/__pycache__/
