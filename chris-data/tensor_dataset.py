@@ -86,7 +86,7 @@ class CascadeDataset(Dataset):
             "case": row["case"],
             "fields": torch.from_numpy(fields),
             "coords": torch.from_numpy(coords.copy()),
-            "params": torch.tensor([float(row[k]) for k in ("sweep_w_deg", "lean_w_deg", "theta_unit")]),
+                "params": torch.tensor([float(row[k]) for k in ("sweep_w_deg", "lean_w_deg", "theta_unit")]),
             "gamma": torch.tensor(gamma),
             "qoi": torch.tensor([float(row[k]) for k in self.qoi_names]),
             "index": torch.tensor([int(row[k]) for k in ("i_sweep", "j_lean", "k_theta")]),
